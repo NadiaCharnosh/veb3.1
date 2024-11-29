@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    display: flex;
+    background-color: rgb(166, 164, 143);
+    justify-content: center;
+    height: 15vh;
+    align-items: center;
+}
+
+pre {
+    text-align: center;
+}
+
+
+.five {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+
+    width: 15vw;
+    height: 445px;
+    background-color: rgb(186, 164, 134);
+    margin-left: auto;
+    margin-top: auto;
+    position: relative;
+}
+
+
+
+.two {
+    display: flex;
+    align-items: stretch;
+    width: 15vw;
+    height: 500px;
+    background-color: rgb(186, 164, 134);
+    overflow: hidden;
+    /* Прибирає вихід елементів за межі блоку */
+    text-overflow: ellipsis;
+    /* Додає три крапки, якщо текст не вміщується */
+
+
+}
+
+
+h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.three {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 109, 88);
+    margin-left: 15vw;
+    margin-top: -500px;
+}
+
+.six {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 10vh;
+    width: 100%;
+
+    height: 100%;
+
+    background-color: rgb(166, 164, 143);
+    text-align: center;
+}
+
+
+.four {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -29rem;
+    color: black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.four img {
+    align-self: center;
+    margin-top: 2rem;
+    width: 20%;
+    height: auto;
+
+}
+
+.imgg {
+    width: 70%;
+    height: auto;
+    position: relative;
+
+}
+
+
+
+*/ ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    margin-right: 50%;
+
+}
+
+a {
+    background-color: bisque;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+
+
+}
+
+a:hover {
+    background-color: rgb(210, 185, 154);
+    /* Колір при наведенні */
+
+}
+
+.map {
+    width: 50%;
+    /* Задає ширину картинки */
+    height: auto;
+    /* Зберігає пропорції картинки */
+    margin: 0 auto;
+    /* Вирівнює картинку по центру горизонтально */
+}
+
+@media (max-width:768px) {
+    .imgg {
+        width: 18vw;
+
+    }
+
+    .five {
+        width: 20vw;
+    }
+
+    .four {
+        width: 55vw;
+    }
+
+    pre {
+        justify-content: center;
+    }
+
+    img {
+        margin-top: -18vh;
+        justify-content: center;
+
+    }
+
+    pre {
+        display: flex;
+
+        align-items: center;
+
+        text-align: center;
+        margin-right: 11vw;
+
+    }
+
+}
+
+@media (max-width:550px) {
+    img {
+        width: 25vw;
+    }
+
+    pre {
+        display: flex;
+
+        align-items: center;
+
+        text-align: center;
+        margin-right: 20vw;
+
+    }
+
+
+
+    .six {
+        margin-top: 2%;
+        padding: 10px;
+    }
+}
